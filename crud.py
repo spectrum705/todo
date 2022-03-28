@@ -7,7 +7,7 @@ import os
 
 
 
-DB_URI = os.env["DB_URI"]
+DB_URI = os.environ["DB_URI"]
 
 client = pymongo.MongoClient(DB_URI)
 # client = motor.motor_asyncio.AsyncIOMotorClient(DB_URI)
