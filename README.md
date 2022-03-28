@@ -1,20 +1,20 @@
 # todo api
 
-#endpoints
+## Endpoints
 
-/add/{note} 
+### add/{note} 
 to add a new note
 
-/all
+### /all
 to get all notes
 
-/search/{id}
+### /search/{id}
 search note by id
 
-/update{id}/{note}
+### /update{id}/{note}
 update an existing note by id
 
-/delete/{id}
+### /delete/{id}
 delete a note by id
 
 
